@@ -7,12 +7,12 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
+
     <com.google.android.material.card.MaterialCardView
         android:id="@+id/idCardView"
-        android:layout_width="350dp"
+        android:layout_width="300dp"
         android:layout_height="380dp"
         android:clickable="true">
-
 
         <ImageView
             android:layout_width="match_parent"
@@ -22,11 +22,12 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Café com Leite" />
+            android:text="Café Badílico" />
 
         <RatingBar
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:contentDescription="avaliação" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -41,17 +42,17 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="US$" />
+            android:text="$" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Italian Coffee" />
+            android:text="Italian, Café)" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="The best Italian Coffee is here." />
+            android:text="O melhor café da região, feito com muito carinho." />
 
         <View
             android:layout_width="match_parent"
@@ -60,32 +61,33 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Tonight's availability." />
+            android:text="Nossos horários:" />
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="17h30" />
+            android:text="17:30" />
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="19h30" />
+            android:text="19:30" />
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="20h00" />
+            android:text="20:00" />
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="21h00" />
+            android:text="21:00" />
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Reservation" />
+            android:text="Reserve" />
+
 
     </com.google.android.material.card.MaterialCardView>
 
